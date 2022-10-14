@@ -1,0 +1,89 @@
+/* breyers delights */
+body.login {
+	background: #cecece;
+}
+
+#login {
+	min-width: 320px;
+	max-width: 400px;
+	width: 100%;
+	padding-top: 5%;
+}
+
+.login h1 a {
+	border: 0 !important;
+	outline: 0 !important;
+	box-shadow: none !important;
+	background: url('../assets/sb-logo.png') no-repeat center center;
+	background-size: contain;
+	width: 270px;
+	height: 150px;
+}
+
+.login .message {
+	border: 0;
+	text-align: center;
+}
+	.message.register {
+		display: none;
+	}
+	
+	.login form {
+		background: #fff;
+		border-radius: 0;
+		padding: 35px 30px;
+		box-shadow: 1px 1px 3px rgba(0,0,0,.1);
+	}
+
+	.login label {
+		color: #444;
+		font-size: 15px;
+		display: block;
+		padding-bottom: 10px;
+		line-height: 2;
+	}
+		.login form .input, .login input[type="text"] {
+			border-top: 0;
+			border-left: 0;
+			border-right: 0;
+			padding: 7px 10px;
+		}
+		
+	.login #nav {
+		margin: 34px 0 0;
+		text-align: center;
+		font-size: 1.1rem;
+		display: none;
+	}
+	.login #backtoblog,
+	.privacy-policy-page-link {
+		display: none !important;
+	}
+	
+	.login #nav a {
+		text-decoration: none;
+		color: #26a367;
+		padding: 2px 5px;
+	}
+	
+.login-info {
+	display: block;
+	padding: 10px 0 30px;
+	text-align: center;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	margin-bottom: 30px !important;
+}
+
+#wp-submit {
+	border: none;
+	box-shadow: none;
+	border-radius: 0;
+	text-shadow: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 12px;
+	padding: 11px 20px;
+	height: auto;
+	line-height: 1;
+	background-color: #26a367;
+}
